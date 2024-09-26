@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; 
+}
+
+
+section {
+    padding: 40px; 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh;
+}
+
+#home {
+    background-image: url('images/background-image5.jpg');
+}
+
+#about {
+    background-image: url('images/background-image5.jpg');
+}
+#education {
+    background-image: url('images/background-image5.jpg');
+}
+
+#projects {
+    background-image: url('images/background-image5.jpg');
+}
+
+
+#skills {
+    background-image: url('images/background-image5.jpg');
+}
+
+#certifications {
+    background-image: url('images/background-image5.jpg');
+}
+
+#contact {
+    background-image: url('images/background-image5.jpg');
+}
+
+#social-links {
+    background-image: url('images/background-image5.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px 0; 
+    text-align: center; 
+    color: rgb(241, 238, 238); 
+}
+
+#social-links a {
+    color: rgb(233, 217, 217); 
+    text-decoration: none;
+    margin: 0 10px; 
+    font-size: 16px; 
+}
+
+#social-links a:hover {
+    color: #007bff; 
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.section-hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.section-hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-content p {
+    flex-grow: 1;
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: left;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+section-hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-hero .container {
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
